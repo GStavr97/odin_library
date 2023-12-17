@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src='script.js' defer></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Library</title>
+</head>
+<body>
+    <div id="first">
+        <h1>Library</h1>
+    </div>
+    <div id="sec">
+        <button id="addbook">New Book</button>
+        <div class="fscreen hidden flex-cont">
+            <div id="mainpop">
+                <div>Add a new Book</div>
+                <div>
+                <label for="author">Author</label>
+                <input id='author' name="author" type="text" minlength="2" maxlength="20">
+                <br>
+                <label for="name">Name</label>
+                <input id='name' name="name" type="text" minlength="2" maxlength="40">
+                <br>
+                <label for="pages" >Pages</label>
+                <input type="number" min="0" name="pages" id="pages">
+                <br>
+                <label for="read">Read</label>
+                <input type="checkbox" id="read" name="read">
+            </div>
+            <div>
+                <button id="add">Add</button>
+                <button id="cancel">Cancel</button>
+            </div>
+        </div>
+    </div>
+        <div id="addedbooks"></div>
+    </div>
+</body>
+</html>

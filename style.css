@@ -1,0 +1,96 @@
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    display: grid;
+    grid-template-rows: 15fr 85fr;
+}
+
+#sec,#mainpop,button{
+    background-color: rgb(228, 228, 226); 
+}
+
+#first{
+    padding-left: 30px;
+}
+
+#addbook{
+   margin-left: 45%;
+   margin-top: 50px;
+}
+
+#addedbooks{
+    display: flex;
+    flex-wrap: wrap ;
+}
+
+.book{
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 5px;
+    flex-basis: 30%;
+    line-height: 1.5;
+}
+
+.fscreen{
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0,0,0,0.8);
+}
+
+.flex-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hidden{
+    display: none;
+}
+
+button{ 
+    border: none;
+    font-size: 2em;
+}
+
+button:hover{
+    background-color: #f1f1f1;
+    border-radius: 5px;
+}
+
+#mainpop{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    height: 55%;
+    width: 25%; 
+}
+
+.readStatus{
+    border: 1px solid #07791f;
+}
+
+.xicon{
+    margin-left: 92%;
+    height: 25px;
+    width: 25px;
+}
+
+#mainpop:first-child{
+    font-size: large;
+}
+
+input{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
